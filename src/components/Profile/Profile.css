@@ -1,0 +1,49 @@
+ol,
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.profile {
+  /* font-weight: 700; */
+  border-radius: 12px;
+  border: 2px Solid #000;
+  /* width: 444px; */
+}
+.stats {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-shrink: 0;
+  background-color: silver;
+}
+.stats > li {
+  /* border: 2px Solid #000; */
+  display: flex;
+  flex-direction: column;
+  /* gap: 32px; */
+}
+.stats > li > span {
+  /* height: 44px; */
+  font-size: 16pt;
+  font-weight: 700;
+  margin: 12px auto;
+}
+.profile img {
+  background-color: indigo;
+  margin-top: 24px;
+  border-radius: 50%;
+  width: 220px;
+}
+.profile-name {
+  font-size: 32px;
+  font-weight: 700;
+}
+.profile-tag,
+.profile-location {
+  color: gray;
+  font-size: 32px;
+}
+.profile-location {
+  font-weight: 500;
+}
